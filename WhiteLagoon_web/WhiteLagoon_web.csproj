@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WhiteLagoon_Infrastructure\WhiteLagoon_Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
