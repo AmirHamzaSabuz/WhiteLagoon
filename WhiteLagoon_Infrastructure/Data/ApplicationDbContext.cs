@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WhiteLagoon_Domain.Entities;
 
 namespace WhiteLagoon_Infrastructure.Data
 {
@@ -12,5 +13,7 @@ namespace WhiteLagoon_Infrastructure.Data
 		public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
 		{
 		}
+
+		public DbSet<Villa> Villas { get; set; }
 	}
 }
