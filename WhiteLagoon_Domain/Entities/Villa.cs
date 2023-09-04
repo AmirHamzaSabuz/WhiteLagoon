@@ -24,7 +24,7 @@ namespace WhiteLagoon_Domain.Entities
 		public int Occupancy { get; set; }
 
         [Display(Name = "Image Url")]
-        public string? ImageUrl { get; set; }
+		public string? ImageUrl { get; set; }
 
 		public DateTime? Created_Date { get; set; }
 
